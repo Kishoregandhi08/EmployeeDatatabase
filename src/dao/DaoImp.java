@@ -150,7 +150,7 @@ public class DaoImp implements DaoInterface {
 			System.out.println("track not avaliable " + e);
 
 		} catch (SQLException e) {
-			System.out.println("track not in the list " + e);
+			System.out.println("track not available " + e);
 		}
 		return 0;
 	}
